@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+.sidebar{
+    width: 200px;
+    height: fit-content;
+    margin-left: 40px;
+    border: 2px solid #e5cf8c;
+    border-radius: 10px
+}
+.sidebar div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar h3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sidebar li{
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+.sidebar li:hover{
+    color: #bbc8b2;
+}
+.selected{
+    background-color: #809671;
+    border-radius: 10px;
+}

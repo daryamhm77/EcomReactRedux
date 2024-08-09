@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#E5cf8c;
+    padding: 10px 20px;
+    margin: 0 10px 60px;
+    border-radius: 10px;
+}
+.header a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #0d0b7e;
+    transition: all 0.1s ease-in-out;
+}
+header a:hover{
+    color: #657166;
+}
+.header span{
+    position: absolute;
+    
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    font-size:1rem;
+}
+.footer{
+    margin-top: 80px;
+    margin: 10px;
+    padding: 20px;
+    background-color:#809671;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+}
